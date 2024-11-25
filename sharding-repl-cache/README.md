@@ -8,7 +8,7 @@
 docker compose up -d
 ```
 
-Заполняем mongodb данными
+Создаем структуру и заполняем mongodb данными
 
 ```shell
 ./scripts/mongo-init.sh
@@ -33,3 +33,7 @@ curl --silent http://ifconfig.me
 ## Доступные эндпоинты
 
 Список доступных эндпоинтов, swagger http://<ip виртуальной машины>:8080/docs
+
+## Архитектура приложения
+
+Схему архитектуры можно скачать [здесь](./task1.drawio).
